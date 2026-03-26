@@ -1,0 +1,9 @@
+{
+  "name": "The Civic Authority",
+  "description": "Smart Traffic & Public Issue Reporting System for Indian urban and rural infrastructure management.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation",
+    "microphone"
+  ]
+}
