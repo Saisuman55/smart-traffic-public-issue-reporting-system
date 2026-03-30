@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Navigate, useNavigate } from 'react-router-dom';
+import { Analytics as VercelAnalytics } from '@vercel/analytics/react';
 import { auth, onAuthStateChanged, db, doc, getDoc, setDoc, updateDoc, OperationType, handleFirestoreError } from './firebase';
 import { UserProfile } from './types';
 import Layout from './components/Layout';
@@ -140,6 +141,7 @@ export default function App() {
   return (
     <I18nProvider>
       <AppContent loading={loading} user={user} />
+      <VercelAnalytics />
     </I18nProvider>
   );
 }
