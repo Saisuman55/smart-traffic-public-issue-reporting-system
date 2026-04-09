@@ -229,6 +229,7 @@ async function startServer() {
       if (merge) {
         const existing = await coll.findOne({ _id: documentId });
         const merged = applyFieldOperations(existing || {}, payload);
+        delete merged._id;
         delete merged.id;
         await coll.updateOne({ _id: documentId }, { $set: { ...merged, id: documentId } }, { upsert: true });
       } else {
