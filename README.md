@@ -18,10 +18,10 @@ The Civic Authority helps users report civic issues with photos, location data, 
 | Member | Role | GitHub |
 | --- | --- | --- |
 | Sai Suman Sumantaray | Project Lead + Backend | [@Saisuman55](https://github.com/Saisuman55) |
+| Sanjay | UI/UX Designer | [@sanjaysahoo99](https://github.com/sanjaysahoo99) |
 | Satya | Frontend Developer | [@satyaspandanrout](https://github.com/satyaspandanrout) |
 | Suvrajit | Backend Developer | [@Suvrajit14](https://github.com/Suvrajit14) |
 | Rohan | Database + API Integration | [@RohanAnand-SPG](https://github.com/RohanAnand-SPG) |
-| Sanjay | UI/UX Designer | [@sanjaysahooyt99-ux](https://github.com/sanjaysahooyt99-ux) |
 
 ## Tech Stack
 
